@@ -57,22 +57,22 @@ export default function Hero() {
         inset: 0,
         background: 'linear-gradient(to top, #080808 0%, rgba(8,8,8,0.5) 40%, transparent 70%)',
         zIndex: 2,
-      }}/>
+      }} />
       {/* Left side fade */}
       <div style={{
         position: 'absolute',
         inset: 0,
         background: 'linear-gradient(to right, rgba(8,8,8,0.6) 0%, transparent 60%)',
         zIndex: 2,
-      }}/>
+      }} />
 
       {/* ── TOP LEFT — tag line ── */}
       <div style={{
-  position: 'absolute',
-  top: 'clamp(5rem, 12vw, 8rem)',     // moves down on mobile below navbar
-  left: 'clamp(1rem, 4vw, 2.5rem)',
-  zIndex: 10,
-}}>
+        position: 'absolute',
+        top: 'clamp(5rem, 12vw, 8rem)',     // moves down on mobile below navbar
+        left: 'clamp(1rem, 4vw, 2.5rem)',
+        zIndex: 10,
+      }}>
         {/* <span style={{
           fontFamily: 'var(--font-barlow-condensed)',
           fontSize: '0.65rem',
@@ -86,47 +86,47 @@ export default function Hero() {
 
       {/* ── BOTTOM LEFT — Main name ── */}
       <div style={{
-            position: 'absolute',
-            bottom: 'clamp(1.5rem, 5vw, 4rem)',    // responsive bottom
-            left: 'clamp(1rem, 4vw, 2.5rem)',      // responsive left
-            zIndex: 10,
-            maxWidth: '90vw',                       // never overflows screen
-        }}>
+        position: 'absolute',
+        bottom: 'clamp(8rem, 15vw, 12rem)',    // responsive bottom
+        left: 'clamp(1rem, 4vw, 2.5rem)',      // responsive left
+        zIndex: 10,
+        maxWidth: '90vw',                       // never overflows screen
+      }}>
         {/* Sub label */}
         <p style={{
-    fontFamily: 'var(--font-barlow-condensed)',
-    fontSize: 'clamp(1rem, 4vw, 1rem)',
-    fontWeight: 600,
-    letterSpacing: '0.35em',
-    textTransform: 'uppercase',
-    color: '#c8f135',
-    marginBottom: '0.3rem',
-  }}>
-    Multi-genre DJ & Producer
-  </p>
+          fontFamily: 'var(--font-barlow-condensed)',
+          fontSize: 'clamp(1rem, 4vw, 1rem)',
+          fontWeight: 600,
+          letterSpacing: '0.35em',
+          textTransform: 'uppercase',
+          color: '#c8f135',
+          marginBottom: '0.3rem',
+        }}>
+          Multi-genre DJ & Producer
+        </p>
 
         {/* Giant name */}
         <h1 style={{
-    fontFamily: 'var(--font-bebas)',
-    fontSize: 'clamp(4rem, 20vw, 14rem)',  // scales down on mobile
-    lineHeight: 0.9,
-    letterSpacing: '0.02em',
-    color: '#f0f0f0',
-    margin: 0,
-  }}>
-    DJ<br />
-    <span style={{ color: '#ffffff' }}>Rohan</span>
-  </h1>
-</div>
+          fontFamily: 'var(--font-bebas)',
+          fontSize: 'clamp(4rem, 20vw, 14rem)',  // scales down on mobile
+          lineHeight: 0.9,
+          letterSpacing: '0.02em',
+          color: '#f0f0f0',
+          margin: 0,
+        }}>
+          DJ<br />
+          <span style={{ color: '#ffffff' }}>Rohan</span>
+        </h1>
+      </div>
 
-      {/* ── BOTTOM RIGHT — Next gig pill ── */}
+      {/* ── BOTTOM RIGHT ── */}
       <div style={{
-  position: 'absolute',
-  bottom: 'clamp(1.5rem, 5vw, 4rem)',
-  right: 'clamp(1rem, 4vw, 2.5rem)',
-  zIndex: 10,
-  textAlign: 'right',
-}}>
+        position: 'absolute',
+        bottom: 'clamp(8rem, 15vw, 12rem)',
+        right: 'clamp(1rem, 4vw, 2.5rem)',
+        zIndex: 10,
+        textAlign: 'right',
+      }}>
         <p style={{
           fontFamily: 'var(--font-barlow-condensed)',
           fontSize: '0.6rem',
@@ -146,8 +146,8 @@ export default function Hero() {
           display: 'block',
           transition: 'color 0.2s',
         }}
-        onMouseEnter={e => (e.currentTarget.style.color = '#c8f135')}
-        onMouseLeave={e => (e.currentTarget.style.color = '#f0f0f0')}>
+          onMouseEnter={e => (e.currentTarget.style.color = '#c8f135')}
+          onMouseLeave={e => (e.currentTarget.style.color = '#f0f0f0')}>
           Ahmedabad<br />
           {/* <span style={{ color: '#c8f135', fontSize: '0.6em', letterSpacing: '0.2em' }}>Live</span> */}
         </a>
@@ -160,17 +160,17 @@ export default function Hero() {
         }
       `}</style>
       <div className="scroll-indicator" style={{
-  position: 'absolute',
-  bottom: '2rem',
-  left: '50%',
-  transform: 'translateX(-50%)',
-  zIndex: 10,
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  gap: '0.4rem',
-  opacity: 1,
-}}>
+        position: 'absolute',
+        bottom: '2rem',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        zIndex: 10,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '0.4rem',
+        opacity: 1,
+      }}>
         <span style={{
           fontFamily: 'var(--font-barlow-condensed)',
           fontSize: '0.55rem',
@@ -183,7 +183,7 @@ export default function Hero() {
           height: '40px',
           background: 'linear-gradient(to bottom, #c8f135, transparent)',
           animation: 'scrollLine 1.5s ease-in-out infinite',
-        }}/>
+        }} />
       </div>
 
     </section>
