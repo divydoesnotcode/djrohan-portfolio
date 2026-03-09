@@ -16,7 +16,6 @@ export default function Home() {
       <Milestones />
       <Partners />
       <Footer />
-      <div style={{ height: '100vh', background: '#080808' }} />
     </main>
   )
 }
