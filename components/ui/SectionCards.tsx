@@ -140,7 +140,7 @@ export default function SectionCards() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
                 <span style={{
                   fontFamily: 'var(--font-barlow-condensed)',
-                  fontSize: '0.7rem',
+                  fontSize: '1.20rem',
                   fontWeight: 700,
                   letterSpacing: '0.25em',
                   textTransform: 'uppercase',

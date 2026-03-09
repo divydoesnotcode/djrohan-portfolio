@@ -82,8 +82,8 @@ export default function Gallery() {
       }}>
         <span style={{
           fontFamily:    'var(--font-barlow-condensed)',
-          fontSize:      '2rem',
-          letterSpacing: '0.35em',
+          fontSize:      '4rem',
+          letterSpacing: '0.33em',
           textTransform: 'uppercase',
           color:         '#c8f135',
         }}>
@@ -182,8 +182,8 @@ export default function Gallery() {
             }}>
               <p style={{
                 fontFamily:    'var(--font-barlow-condensed)',
-                fontSize:      '0.62rem',
-                letterSpacing: '0.28em',
+                fontSize:      '1.2rem',
+                letterSpacing: '0.2em',
                 textTransform: 'uppercase',
                 color:         'rgba(200,241,53,0.75)',
                 margin:        0,
@@ -193,7 +193,7 @@ export default function Gallery() {
               </p>
               <p style={{
                 fontFamily:    'var(--font-bebas)',
-                fontSize:      '1.6rem',
+                fontSize:      '2.2rem',
                 letterSpacing: '0.06em',
                 color:         '#f0f0f0',
                 margin:        0,
